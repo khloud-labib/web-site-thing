@@ -1,0 +1,465 @@
+/* start our framework */
+body
+{
+	font-family: 'open sans' , sans-serif;
+		height:3000px ;
+}
+.container
+{
+	width: 1200px;
+	margin: auto;
+}
+.table
+{
+	height: 100%;
+	display: table;
+}
+.table-row
+{
+	display: table-row;
+}
+.text-center
+{
+	text-align: center;
+}
+.upper
+{
+	text-transform: uppercase;
+}
+.main-color
+{
+	color: #f7600e;
+}
+.main-background
+{
+	background-color:#f7600e ;
+}
+.overlay
+{
+	background:rgba(49,55,61,0.9) ;
+	width: 100%;
+	height: 100%;
+}
+.hidden
+{
+	display: none;
+}
+/* end our framework */
+
+
+
+/* start header */
+.header
+{
+	background-image: url(../images/header_stock.png);
+	background-size: cover;
+	color: #fff;
+}
+.header .my-span
+{
+	margin: 400px;
+	font-size: 30px;
+}
+.header .my-span2
+{
+    font-size: 30px;
+	margin-right: 400px;
+}
+.header .navbar
+{
+	overflow: hidden;
+	padding: 20px 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.header .navbar .links
+{
+	float: right;
+}
+.header .navbar .links i
+{
+	margin-left:5px;
+}
+.header .intro h1
+{
+	margin: 0;
+	font-weight: 800px;
+	 font-size: 50px;
+}
+.header .intro p
+{
+	margin: 5px 0 40px;
+	line-height: 1.9;
+	font-size: 20px;
+	color: #e2e2e2;
+}
+.header .buttons button
+{
+	background:transparent ;
+	padding: 10px 0;
+	width: 180px;
+	font-size: 14px;
+	border: 1px solid #909090;
+	margin: 0 8px;
+	border-radius: 10px;
+}
+.header .buttons button:hover
+{
+	background-color:#f7600e ;
+	color: white;
+	border: 1px solid #f7600e;
+	transition: all 0.5s ease-in-out;
+}
+/* end header */
+
+
+
+/* start Features */
+.Features
+{
+	padding:80px 0;
+	overflow: hidden;
+}
+.Features .box
+{
+	width: 22%;
+	float: left;
+	margin-right: 4%;
+}
+.Features .box:last-child
+{
+	margin-right: 0;
+}
+.Features .box i
+{
+	border: 1px solid #f7600e;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	line-height: 100px;
+	transition: all 0.5 ease-in-out;
+}
+.Features .box i:hover
+{
+	background-color: #f7600e;
+	color: #fff;
+	transition: all 0.5 ease-in-out;
+}
+.Features .box h3
+{
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #505050;
+}
+.Features .box p
+{
+	line-height: 2;
+	color: #888;
+}
+/* end Features */
+.our-work {
+    padding: 50px 0
+}
+.our-work h2 {
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 0
+}
+.our-work p {
+    line-height: 2;
+    margin: 10px 0 40px
+}
+.our-work .show-more {
+    background: transparent;
+    border: 1px solid #CCC;
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #555;
+    transition: all .5s ease-in-out
+}
+.our-work .show-more:hover {
+    background-color: #f7600e;
+    border: 1px solid #f7600e;
+    color: #FFF
+}
+.our-work .items-box {
+    overflow: hidden
+}
+.our-work .items-box .item {
+    float: left;
+    width: 30%;
+    overflow: hidden;
+    margin-left: 1.33333%;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    position: relative;
+    height: 403px
+}
+.our-work .items-box .item:hover .over {
+    display: block
+}
+.our-work .items-box .item .over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247, 96, 14, .9);
+    color: #FFF;
+    transition: all .5s ease-in-out;
+    display: none
+}
+.our-work .item .over h4 {
+    font-size: 24px;
+    margin-top: 80px;
+    margin-bottom: 0
+}
+.our-work .item .over p {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    line-height: 2
+}
+.our-work .item .over button {
+    background-color: transparent;
+    border: 1px solid #FFF;
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all .5s ease-in-out
+}
+.our-work .item .over button:hover {
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    color: #f7600e
+}
+/* end  Our Work */
+
+
+
+/* start  Testimonials  */
+.carousel-inner
+{
+	background: url('../images/testimonials.png');
+    background-size: cover;
+}
+.cli-img
+{
+	border-radius: 50%;
+	 padding: 50px 0;
+}
+.cli-p
+{
+	 line-height: 2;
+    font-style: italic;
+	 padding: 50px 0;
+    color: #FFF;
+    font-size: 20px;
+}
+/* end  Testimonials  */
+
+
+
+
+/* start  Our Team  */
+.our-team 
+{
+    padding: 50px 0;
+}
+.our-team h2 
+{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.our-team .main
+{
+    margin: 10px 0 40px;
+    line-height: 2;
+    color: #666;
+    font-size: 20px;
+}
+.our-team .the-team
+{
+    overflow: hidden;
+}
+.our-team .the-team .person 
+{
+    float: left;
+    width: 24%;
+    margin-left: 1%;
+    color: #888;
+}
+.our-team .the-team .person:hover img 
+{
+    filter: none;
+    filter: grayscale(0);
+}
+.our-team .the-team .person:hover 
+{
+    color: #555;
+}
+.our-team .the-team .person:hover .fa-facebook
+{
+    background-color: #3b5998;
+}
+.our-team .the-team .person:hover .fa-twitter 
+{
+    background-color: #55acee;
+}
+.our-team .the-team .person:hover .fa-google-plus 
+{
+    background-color: #dc4e41;
+}
+.our-team .the-team .person img 
+{
+    width: 265px;
+    height: 290px;
+    filter: gray;
+    filter: grayscale(1);
+}
+.our-team .the-team .person p
+{
+    font-size: 15px;
+}
+.our-team .the-team .social-icons i
+{
+    background-color: #9da1a5;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #FFF;
+    border-radius: 50%;
+}
+/* end  Our Team  */
+
+
+
+/* Start Contact Form */
+
+.contact 
+{
+    background: url('../images/city.png');
+    background-size: cover;
+}
+.contact .overlay 
+{
+    padding: 50px 0;
+    color: #FFF;
+}
+.contact h2 
+{
+    font-size: 35px;
+}
+.contact form 
+{
+    width: 700px;
+    margin: 50px auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.contact form input[type="text"]
+{
+    width: 48%;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+	margin-bottom: 10px;
+}
+
+.contact form input[type="email"] 
+{
+    width: 48%;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+	margin-bottom: 10px;
+}
+.contact form textarea 
+{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    height: 140px;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+}
+.contact form .info 
+{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.contact form .info button 
+{
+    float: left;
+    padding: 10px;
+    width: 200px;
+    border: 1px s;
+    background-color: #f7600e;
+    border: none;
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.contact form .info .form-icons 
+{
+    float: right;
+}
+
+.contact form .info .form-icons i 
+{
+    background-color: #9da1a5;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #FFF;
+    border-radius: 50%;
+}
+
+.contact form .info .form-icons .fa-facebook 
+{
+    background-color: #3b5998;
+}
+
+.contact form .info .form-icons .fa-twitter
+{
+    background-color: #55acee;
+}
+
+.contact form .info .form-icons .fa-google-plus 
+{
+    background-color: #dc4e41;
+}
+
+/* End Contact Form */
+
+
+/* Start Footer */
+
+.footer 
+{
+    background-color: #3b434c;
+    color: #FFF;
+    overflow: hidden;
+    padding: 30px 0;
+}
+.footer .copyright 
+{
+    float: left;
+}
+.footer .design 
+{
+    float: right;
+}
+
+/* End Footer */
+ 
+
